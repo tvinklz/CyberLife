@@ -1,0 +1,229 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
+    background-size: 300% 300%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    border-bottom: 2px solid #00ff99;
+}
+
+h1 {
+    color: #00ff99;
+    text-shadow: 0 0 10px #00ff99;
+}
+
+p {
+    color: #ff66cc;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00ff99;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #ff0099;
+    color: #fff;
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+}
+
+.about-image {
+    flex: 1 1 40%;
+    margin-right: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.about-content {
+    flex: 1 1 60%;
+}
+
+.about-content h2 {
+    color: #00ff99;
+    text-shadow: 0 0 10px #00ff99;
+    margin-top: 20px;
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.about-content ul li {
+    margin: 10px 0;
+    color: #ff66cc;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.7);
+    border-top: 2px solid #00ff99;
+    color: #00ff99;
+    box-shadow: 0 -2px 10px rgba(0, 255, 255, 0.5);
+}
+.channels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+}
+
+.channel {
+    flex: 1 1 30%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.channel:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
+}
+
+.channel-icon {
+    max-width: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.channel h2 {
+    color: #00ff99;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px #00ff99;
+}
+
+.channel p {
+    color: #ff66cc;
+    margin-bottom: 20px;
+}
+
+.channel a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00ff99;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.channel a:hover {
+    background: #ff0099;
+    color: #fff;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+}
+
+.contact-card {
+    flex: 1 1 45%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
+}
+
+.contact-card h2 {
+    color: #00ff99;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px #00ff99;
+}
+
+.contact-card p {
+    color: #ff66cc;
+    margin-bottom: 20px;
+}
+
+.contact-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00ff99;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.contact-card a:hover {
+    background: #ff0099;
+    color: #fff;
+}
